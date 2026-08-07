@@ -57,3 +57,35 @@ The largest percentage drop-off occurs between KYC completion and bank account l
 ### Activation by Age Group
 
 ![Age Activation](docs/age_activation.png)
+
+## Product Recommendations
+
+### 1. Improve the bank account linking step
+
+The largest percentage drop-off occurs between KYC completion and bank account linking.
+
+A potential product experiment would be to simplify the bank account linking flow by reducing the number of required steps and providing clearer guidance during the process.
+
+**Primary metric:** Bank account linking conversion rate
+
+**Secondary metrics:**
+- First deposit conversion rate
+- Overall activation rate
+- Time to first transaction
+
+### 2. Investigate acquisition channel quality
+
+Organic users show the highest activation rate, while referral users show the lowest activation rate in the synthetic dataset.
+
+The product and growth teams could investigate whether acquisition channels attract users with different levels of intent.
+
+Possible next analyses include:
+- activation by campaign
+- cost per activated user
+- retention by acquisition channel
+
+### 3. Investigate device-level friction
+
+iOS users show a slightly higher activation rate than Android users.
+
+This difference is small and should not be treated as evidence of a product issue yet. A larger dataset and statistical testing would be required before making a product decision.
