@@ -19,3 +19,41 @@ The largest percentage drop-off occurs between KYC completion and bank account l
 ## Funnel Visualization
 
 ![Onboarding Funnel](docs/onboarding_funnel.png)
+
+## Key Findings
+
+- Overall activation rate is **37.7%**.
+- The largest funnel drop-off occurs between **KYC completion** and **bank account linking**.
+- In the synthetic dataset, **iOS users** have a slightly higher activation rate than Android users.
+- **Organic acquisition** shows the highest activation rate among acquisition channels.
+- **Referral** users show the lowest activation rate among the analyzed channels.
+
+## Segment Analysis
+
+### Device Type
+- Android: 36.96%
+- iOS: 38.48%
+
+### Acquisition Channel
+- Organic: 39.42%
+- Paid Social: 38.99%
+- Search: 37.11%
+- Referral: 35.25%
+
+## Visualizations
+
+### Onboarding Funnel
+
+![Onboarding Funnel](docs/onboarding_funnel.png)
+
+### Activation by Device
+
+![Device Activation](docs/device_activation.png)
+
+### Activation by Acquisition Channel
+
+![Channel Activation](docs/channel_activation.png)
+
+### Activation by Age Group
+
+![Age Activation](docs/age_activation.png)
